@@ -1,12 +1,14 @@
 namespace WordCounter.Models
 {
-    public class Sentence
+    public class WordChecker
     {
-        public str[] WordArray { get; set; }
+        public string Sentence { get; set; }
     
-        public Sentence(str[] words)
+        public WordChecker(string sentence)
         {
-            WordArray = words;
+            Sentence = sentence;
         }
+
+
     }
 }
