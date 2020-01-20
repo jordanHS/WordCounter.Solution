@@ -29,5 +29,13 @@ namespace WordCounter.Tests
             string result = newWordCount.GetWord();
             Assert.AreEqual(result, "cat");
         }
+
+        [TestMethod]
+        public void WordCount_CountWord_Count()
+        {
+            WordCount newWordCount = new WordCount("The cat walked into the cathedral", "cat");
+            int result = newWordCount.GetCountWord();
+            Assert.AreEqual(result, 1);
+        }
     }
 }
