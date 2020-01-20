@@ -6,6 +6,13 @@ namespace WordCounter.Tests
     [TestClass]
     public class WordCountTests
     {
+        [TestMethod]
+        public void WordCount_SetCounter_Zero()
+        {
+            WordCount newWordCount = new WordCount("The cat walked into the cathedral", "dog");
+            int result = newWordCount.SetCounter();
+            Assert.AreEqual(result, 0);
+        }
 
         [TestMethod]
         public void WordCount_GetSentence_CreateSentence()
