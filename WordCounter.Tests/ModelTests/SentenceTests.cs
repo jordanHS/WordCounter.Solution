@@ -4,13 +4,13 @@ using WordCounter.Models;
 namespace WordCounter.Tests
 {
     [TestClass]
-    public class WordCheckerTests
+    public class SentenceTests
     {
         [TestMethod]
-        public void WordChecker_GetSentence_CreateSentence()
+        public void Sentence_GetSentence_CreateSentence()
         {
-           WordChecker newWordChecker = new WordChecker("The cat walked into the cathedral");
-           string result = newWordChecker.GetSentence();
+           Sentence newSentence = new Sentence("The cat walked into the cathedral");
+           string result = newSentence.GetSentence();
            Assert.AreEqual(result, "The cat walked into the cathedral");
         }
     }
