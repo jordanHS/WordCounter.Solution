@@ -5,10 +5,10 @@ namespace WordCounter.Models
     {
         public string Sentence { get; set; }
         public string UserWord { get; set; }
-        public int Count { get; set; } = 0; 
+        public int MatchCount { get; set; } = 0;
         
     
-        public WordCount(string sentence, string userWord)
+        public WordCount(string sentence, string userWord, int count)
         {
             Sentence = sentence;
             UserWord = userWord;
@@ -16,7 +16,7 @@ namespace WordCounter.Models
 
        public int SetCounter()
         {
-            return Count;
+            return MatchCount;
         }
 
         public string GetSentence()
@@ -28,17 +28,14 @@ namespace WordCounter.Models
         {
             return UserWord;
         }
-    
-        public int CountWord()
+
+        public int WordMatch()
         {
-            string [] WordArray = Sentence.Split(" ");
-            foreach (string word in WordArray)
-            {
-                if( UserWord = WordArray);
-                {
-                return Count++;
-                }
-            }
+            string[] wordArray = Sentence.Split(" ");
+          
+            for (int index = 0; index < wordArray.Length; index++)
+            if(UserWord = wordArray[index])
+            return MatchCount++
         }
     }
 }

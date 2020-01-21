@@ -31,10 +31,10 @@ namespace WordCounter.Tests
         }
 
         [TestMethod]
-        public void WordCount_CountWord_Count()
+        public void WordCount_WordMatch_Count()
         {
             WordCount newWordCount = new WordCount("The cat walked into the cathedral", "cat");
-            int result = newWordCount.GetCountWord();
+            int result = newWordCount.WordCount();
             Assert.AreEqual(result, 1);
         }
     }
