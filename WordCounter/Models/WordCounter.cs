@@ -29,10 +29,6 @@ namespace WordCounter.Models
                 {
                     MatchCount++;
                 }
-                else
-                {
-                    MatchCount += 0;
-                }
             }
             return MatchCount;
         }
