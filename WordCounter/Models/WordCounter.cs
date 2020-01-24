@@ -19,23 +19,32 @@ namespace WordCounter.Models
             return MatchCount;
         }
 
-        public string GetSentence()
-        {
-            return Sentence;
-        }
+        // public string GetSentence()
+        // {
+        //     return Sentence;
+        // }
 
-        public string GetWord()
-        {
-            return UserWord;
-        }
+        // public string GetWord()
+        // {
+        //     return UserWord;
+        // }
 
         public int WordMatch()
         {
-            string[] wordArray = Sentence.Split(" ");
-          
-            for (int index = 0; index < wordArray.Length; index++)
-            if(UserWord = wordArray[index])
-            return MatchCount++
+            string[] WordArray = Sentence.Split(" ");
+            
+            for(int index = 0; index < WordArray.Length; index++)
+            {
+                if( UserWord == WordArray[index])
+                {
+                    MatchCount++;
+                }
+                else
+                {
+                    MatchCount += 0;
+                }
+            }
+            return MatchCount;
         }
     }
 }

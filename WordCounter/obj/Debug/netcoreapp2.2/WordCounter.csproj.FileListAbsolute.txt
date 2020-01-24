@@ -7,3 +7,5 @@
 /Users/jordansafford/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.pdb
 /Users/jordansafford/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.dll
 /Users/jordansafford/Desktop/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.2/WordCounter.pdb
+/Users/jordansafford/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.runtimeconfig.json
+/Users/jordansafford/Desktop/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.2/WordCounter.runtimeconfig.dev.json
