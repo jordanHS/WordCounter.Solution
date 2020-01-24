@@ -19,16 +19,6 @@ namespace WordCounter.Models
             return MatchCount;
         }
 
-        // public string GetSentence()
-        // {
-        //     return Sentence;
-        // }
-
-        // public string GetWord()
-        // {
-        //     return UserWord;
-        // }
-
         public int WordMatch()
         {
             string[] WordArray = Sentence.Split(" ");
