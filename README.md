@@ -7,7 +7,7 @@
 ## Description
 
 _An applicaton for counting how many times a word appears in a sentence._
-*Note: This application does not contain a UI & is only for testing purposes*
+
 
 ## Getting Started
 
@@ -29,7 +29,11 @@ dotnet run test
 * Application takes word from user input.
 * Sentence is broken into separate words.
 * Application cycles through words to check if any match users word.
-
+| input | Output |
+| :------------- | :------------- |
+|  Word: "cat" Sentence: "The cat walks into the cathedral" | The word "cat" appears 1 time in that sentence. |
+| "Word: "dog" Sentence: "It's a dog eat dog world" | The word "dog" appears 2 times in that sentence. |
+| "Input: "dog" Sentence: "The cat walks into the cathedral" | The word "dog" appears 0 times in that sentence. |
 
 ## Technologies Used
 
