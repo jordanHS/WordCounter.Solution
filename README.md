@@ -33,8 +33,8 @@ dotnet run test
 |Input | Output |
 | :------------- | :------------- |
 |  Word: "cat" Sentence: "The cat walks into the cathedral" | The word "cat" appears 1 time in that sentence. |
-| "Word: "dog" Sentence: "It's a dog eat dog world" | The word "dog" appears 2 times in that sentence. |
-| "Input: "dog" Sentence: "The cat walks into the cathedral" | The word "dog" appears 0 times in that sentence. |
+| Word: "dog" Sentence: "It's a dog eat dog world" | The word "dog" appears 2 times in that sentence. |
+| Input: "dog" Sentence: "The cat walks into the cathedral" | The word "dog" appears 0 times in that sentence. |
 
 ## Technologies Used
 
