@@ -29,7 +29,8 @@ dotnet run test
 * Application takes word from user input.
 * Sentence is broken into separate words.
 * Application cycles through words to check if any match users word.
-| input | Output |
+
+|Input | Output |
 | :------------- | :------------- |
 |  Word: "cat" Sentence: "The cat walks into the cathedral" | The word "cat" appears 1 time in that sentence. |
 | "Word: "dog" Sentence: "It's a dog eat dog world" | The word "dog" appears 2 times in that sentence. |
