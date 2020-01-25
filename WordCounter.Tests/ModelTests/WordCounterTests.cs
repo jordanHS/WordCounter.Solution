@@ -15,22 +15,6 @@ namespace WordCounter.Tests
         }
 
         [TestMethod]
-        public void WordCount_GetSentence_CreateSentence()
-        {
-           WordCount newWordCount = new WordCount("The cat walked into the cathedral", "cat", 1);
-           string result = newWordCount.GetSentence();
-           Assert.AreEqual(result, "The cat walked into the cathedral");
-        }
-
-        [TestMethod]
-        public void WordCount_GetWord_CreateWord()
-        {
-            WordCount newWordCount = new WordCount("The cat walked into the the cathedral", "cat", 1);
-            string result = newWordCount.GetWord();
-            Assert.AreEqual(result, "cat");
-        }
-
-        [TestMethod]
         public void WordCount_WordMatch_Count()
         {
             WordCount newWordCount = new WordCount("The cat walked into the cathedral", "cat", 1);
