@@ -21,7 +21,7 @@ namespace WordCounter.Models
 
         public int WordMatch()
         {
-            string[] WordArray = Sentence.Split(" ");
+            string[] WordArray = Sentence.ToLower().Split(" ");
             
             for(int index = 0; index < WordArray.Length; index++)
             {
