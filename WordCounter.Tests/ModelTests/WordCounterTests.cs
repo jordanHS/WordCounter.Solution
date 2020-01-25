@@ -41,7 +41,7 @@ namespace WordCounter.Tests
         [TestMethod]
         public void WordCount_WordMatch_Count_MultipleMatches()
         {
-            WordCount newWordCount = new WordCount("It's a dog eat dog world", "dog", 2);
+            WordCount newWordCount = new WordCount("Dog eat dog world", "dog", 2);
             int result = newWordCount.WordMatch();
             Assert.AreEqual(result,2);
         }
